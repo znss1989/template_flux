@@ -6,7 +6,7 @@ var AppAPI = require('../utils/AppAPI.js');
 
 var CHANGE_EVENT = 'change';
 
-_items = [];
+var _items = [];
 
 var AppStore = assign({}, EventEmitter.prototype, {
     emitChange: function() {
